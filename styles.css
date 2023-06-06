@@ -14,6 +14,8 @@ body {
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-color: #121214;
+    display: flex;
+    flex-direction: column;
 }
 
 body * {
@@ -23,13 +25,13 @@ body * {
 
 header {
     padding-top: 32px;
-    height: calc(120px + 32px);
+    height: calc(180px + 32px);
 }
 
 header div {
     width: 120px;
     margin: auto;
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    background-image: linear-gradient(90deg, #00a8ff 0%,#ee00ff 50.52%, #9500ff 100%);
 
     border-radius: 50%;
 
@@ -97,6 +99,7 @@ section ul li:hover {
 }
 
 .games-list img {
+    height: 130px;
     width: 90px;
     border-radius: 8px;
 }
